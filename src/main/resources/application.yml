@@ -1,2 +1,8 @@
 server:
   port: 8880
+spring:
+  datasource:
+    url: jdbc:mysql://rm-m5eqy92235l2724dtfo.mysql.rds.aliyuncs.com/wiki?characterEncoding=UTF8&autoReconnect=true&serverTimezone=Asia/Shanghai&allowMultiQueries=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: 1234567@com
+    username: wiki
